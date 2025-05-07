@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Audio Projects</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function toggleReflection(id) {
+      const content = document.getElementById(id);
+      content.classList.toggle('hidden');
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow-md p-6 flex items-center justify-between">
+    <h1 class="text-2xl font-bold">Audio Projects</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:text-blue-600">Home</a>
+      <a href="graph.html" class="hover:text-blue-600">Graphic</a>
+      <a href="audio.html" class="text-blue-600 font-semibold">Audio</a>
+      <a href="video.html" class="hover:text-blue-600">Video</a>
+      <a href="media.html" class="hover:text-blue-600">Media</a>
+    </nav>
+  </header>
+
+  <!-- Projects Section -->
+  <main class="max-w-4xl mx-auto py-10 px-4 space-y-8">
+    <!-- Audio Project 1 -->
+    <div class="bg-white shadow rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Car Commercial</h2>
+      <audio controls class="w-full mb-3">
+        <source src="podcast-intro.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <button onclick="toggleReflection('audio1')" class="text-blue-600 hover:underline">Show Reflection</button>
+      <div id="audio1" class="hidden mt-3 text-sm space-y-2">
+        <p><strong>Skills:</strong> [Your answer]</p>
+        <p><strong>Editing decisions:</strong> [Your answer]</p>
+        <p><strong>Audio elements used:</strong> [Your answer]</p>
+        <p><strong>Personal opinion:</strong> [Your answer]</p>
+        <p><strong>Suggestions:</strong> [Your answer]</p>
+      </div>
+    </div>
+
+    <!-- Audio Project 2 -->
+    <div class="bg-white shadow rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Monologuing</h2>
+      <audio controls class="w-full mb-3">
+        <source src="soundscape.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <button onclick="toggleReflection('audio2')" class="text-blue-600 hover:underline">Show Reflection</button>
+      <div id="audio2" class="hidden mt-3 text-sm space-y-2">
+        <p><strong>Skills:</strong> [Your answer]</p>
+        <p><strong>Editing decisions:</strong> [Your answer]</p>
+        <p><strong>Audio elements used:</strong> [Your answer]</p>
+        <p><strong>Personal opinion:</strong> [Your answer]</p>
+        <p><strong>Suggestions:</strong> [Your answer]</p>
+      </div>
+    </div>
+
+    <!-- Audio Project 3 -->
+    <div class="bg-white shadow rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Radio Ad</h2>
+      <audio controls class="w-full mb-3">
+        <source src="radio-ad.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <button onclick="toggleReflection('audio3')" class="text-blue-600 hover:underline">Show Reflection</button>
+      <div id="audio3" class="hidden mt-3 text-sm space-y-2">
+        <p><strong>Skills:</strong> [Your answer]</p>
+        <p><strong>Editing decisions:</strong> [Your answer]</p>
+        <p><strong>Audio elements used:</strong> [Your answer]</p>
+        <p><strong>Personal opinion:</strong> [Your answer]</p>
+        <p><strong>Suggestions:</strong> [Your answer]</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 mt-10 pb-4">
+    © 2025 Hari Patel — Audio Portfolio
+  </footer>
+</body>
+</html>

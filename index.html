@@ -1,15 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Media Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Digital Media Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Digital Media Portfolio</h1>
-    </header>
-    <script src="script.js"></script> <!-- Link to JavaScript file -->
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow-md p-6 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <img src="logo.png" alt="My Logo" class="h-12 w-12 object-cover" />
+      <h1 class="text-2xl font-bold">Digital Media Portfolio</h1>
+    </div>
+    <nav class="space-x-4">
+      <a href="index.html" class="text-blue-600 font-semibold">Home</a>
+      <a href="graph.html" class="hover:text-blue-600">Graphic</a>
+      <a href="audio.html" class="hover:text-blue-600">Audio</a>
+      <a href="video.html" class="hover:text-blue-600">Video</a>
+      <a href="media.html" class="hover:text-blue-600">Media</a>
+    </nav>
+  </header>
+
+  <!-- About Me Section -->
+  <section class="max-w-4xl mx-auto mt-10 bg-white shadow-md rounded-lg p-6">
+    <h2 class="text-xl font-bold mb-4">😎 About Me</h2>
+    <ul class="space-y-2 text-lg">
+      <li><strong>First Name:</strong> Hari</li>
+      <li><strong>Block:</strong> Block 2</li>
+      <li><strong>Current Grade:</strong> Grade 12</li>
+    </ul>
+
+    <div class="mt-6">
+      <h3 class="text-lg font-semibold mb-2">🧠 What was your experience with Adobe before taking this class?</h3>
+      <p>I had little experience with Premiere Pro before taking this class, but that was before high school.</p>
+    </div>
+
+    <div class="mt-6">
+      <h3 class="text-lg font-semibold mb-2">🎨 What was your favorite project and why?</h3>
+      <p>My favorite project that I created was the Vogue Photoshop assignment, and it was because of the creativity aspect of the project.</p>
+    </div>
+
+    <div class="mt-6">
+      <h3 class="text-lg font-semibold mb-2">📚 What was the most important thing you learned?</h3>
+      <p>The most important thing that I learned is that creativity is an amazing tool in any field of life.</p>
+    </div>
+
+    <div class="mt-6">
+      <h3 class="text-lg font-semibold mb-2">💼 How will you use these skills in the future?</h3>
+      <p>If you are starting a business in your selected field, you might have to advertise your company or something; therefore, using Adobe can be handy.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 mt-10 pb-4">
+    © 2025 Hari Patel — Digital Media Portfolio
+  </footer>
 </body>
 </html>

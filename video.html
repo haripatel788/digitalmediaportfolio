@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Projects</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function toggleReflection(id) {
+      const content = document.getElementById(id);
+      content.classList.toggle('hidden');
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow-md p-6 flex items-center justify-between">
+    <h1 class="text-2xl font-bold">Video Projects</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:text-blue-600">Home</a>
+      <a href="graph.html" class="hover:text-blue-600">Graphic</a>
+      <a href="audio.html" class="hover:text-blue-600">Audio</a>
+      <a href="video.html" class="text-blue-600 font-semibold">Video</a>
+      <a href="media.html" class="hover:text-blue-600">Media</a>
+    </nav>
+  </header>
+
+  <!-- Projects Section -->
+  <main class="max-w-4xl mx-auto py-10 px-4 space-y-10">
+    <!-- Video Project Block Template -->
+    <div class="bg-white shadow rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Video Tribute</h2>
+      <video controls class="w-full mb-3 rounded-md">
+        <source src="video-tribute.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <button onclick="toggleReflection('video1')" class="text-blue-600 hover:underline">Show Reflection</button>
+      <div id="video1" class="hidden mt-3 text-sm space-y-2">
+        <p><strong>Skills:</strong> [Your answer]</p>
+        <p><strong>Editing decisions:</strong> [Your answer]</p>
+        <p><strong>Design elements used:</strong> [Your answer]</p>
+        <p><strong>Personal opinion:</strong> [Your answer]</p>
+        <p><strong>Suggestions:</strong> [Your answer]</p>
+      </div>
+    </div>
+
+    <div class="bg-white shadow rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Story Video</h2>
+      <video controls class="w-full mb-3 rounded-md">
+        <source src="story-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <button onclick="toggleReflection('video2')" class="text-blue-600 hover:underline">Show Reflection</button>
+      <div id="video2" class="hidden mt-3 text-sm space-y-2">
+        <p><strong>Skills:</strong> [Your answer]</p>
+        <p><strong>Editing decisions:</strong> [Your answer]</p>
+        <p><strong>Design elements used:</strong> [Your answer]</p>
+        <p><strong>Personal opinion:</strong> [Your answer]</p>
+        <p><strong>Suggestions:</strong> [Your answer]</p>
+      </div>
+    </div>
+
+    <div class="bg-white shadow rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Lyrics - One Dance</h2>
+      <video controls class="w-full mb-3 rounded-md">
+        <source src="one-dance.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <button onclick="toggleReflection('video3')" class="text-blue-600 hover:underline">Show Reflection</button>
+      <div id="video3" class="hidden mt-3 text-sm space-y-2">
+        <p><strong>Skills:</strong> [Your answer]</p>
+        <p><strong>Editing decisions:</strong> [Your answer]</p>
+        <p><strong>Design elements used:</strong> [Your answer]</p>
+        <p><strong>Personal opinion:</strong> [Your answer]</p>
+        <p><strong>Suggestions:</strong> [Your answer]</p>
+      </div>
+    </div>
+
+    <div class="bg-white shadow rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Lyrics - Passionfruit</h2>
+      <video controls class="w-full mb-3 rounded-md">
+        <source src="passionfruit.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <button onclick="toggleReflection('video4')" class="text-blue-600 hover:underline">Show Reflection</button>
+      <div id="video4" class="hidden mt-3 text-sm space-y-2">
+        <p><strong>Skills:</strong> [Your answer]</p>
+        <p><strong>Editing decisions:</strong> [Your answer]</p>
+        <p><strong>Design elements used:</strong> [Your answer]</p>
+        <p><strong>Personal opinion:</strong> [Your answer]</p>
+        <p><strong>Suggestions:</strong> [Your answer]</p>
+      </div>
+    </div>
+
+    <div class="bg-white shadow rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Star Wars Crawl</h2>
+      <video controls class="w-full mb-3 rounded-md">
+        <source src="star-wars-crawl.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <button onclick="toggleReflection('video5')" class="text-blue-600 hover:underline">Show Reflection</button>
+      <div id="video5" class="hidden mt-3 text-sm space-y-2">
+        <p><strong>Skills:</strong> [Your answer]</p>
+        <p><strong>Editing decisions:</strong> [Your answer]</p>
+        <p><strong>Design elements used:</strong> [Your answer]</p>
+        <p><strong>Personal opinion:</strong> [Your answer]</p>
+        <p><strong>Suggestions:</strong> [Your answer]</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 mt-10 pb-4">
+    © 2025 Hari Patel — Video Portfolio
+  </footer>
+</body>
+</html>
