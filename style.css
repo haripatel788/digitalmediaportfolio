@@ -1,9 +1,3 @@
-body {
-    overflow-y: scroll; /* Allows scrolling */
-    scrollbar-width: none; /* Hides scrollbar for Firefox */
+html {
+    overflow-y: scroll; /* Forces scrollbar to always be present */
 }
-
-body::-webkit-scrollbar {
-    display: none; /* Hides scrollbar for Chrome, Safari, and Edge */
-}
-
