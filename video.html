@@ -6,7 +6,7 @@
   <title>Video Projects</title>
   <link rel="icon" href="icon.png">
   <script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <script>
     function toggleReflection(id) {
       const content = document.getElementById(id);
@@ -30,15 +30,18 @@
     </nav>
   </header>
 
-
   <main class="max-w-4xl mx-auto py-10 px-4 space-y-10">
 
-    <div class="bg-white shadow rounded-lg p-6">
+    <div class="bg-white shadow rounded-lg p-6 transition-all duration-300 hover:bg-gray-100 hover:scale-[1.01]">
       <h2 class="text-xl font-semibold mb-2">Video Tribute</h2>
-      <video controls class="w-full mb-3 rounded-md">
-        <source src="video-tribute.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <a href="https://drive.google.com/file/d/1rWbgJiHcBI6VdtmPNn3LKTZ6dFg_CNae/view?usp=sharing" target="_blank">
+        <div class="relative">
+          <img src="thumbnails/video-tribute-thumbnail.png" alt="Video Tribute Thumbnail" class="w-full mb-3 rounded-md hover:opacity-75 transition-opacity duration-300" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-lg font-semibold opacity-0 hover:opacity-100 transition-opacity duration-300">
+            Click to Watch Video
+          </div>
+        </div>
+      </a>
       <button onclick="toggleReflection('video1')" class="text-blue-600 hover:underline">Show Reflection</button>
       <div id="video1" class="hidden mt-3 text-sm space-y-2">
         <p><strong>Skills:</strong> [answer]</p>
@@ -49,12 +52,16 @@
       </div>
     </div>
 
-    <div class="bg-white shadow rounded-lg p-6">
+    <div class="bg-white shadow rounded-lg p-6 transition-all duration-300 hover:bg-gray-100 hover:scale-[1.01]">
       <h2 class="text-xl font-semibold mb-2">Story Video</h2>
-      <video controls class="w-full mb-3 rounded-md">
-        <source src="story-video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <a href="https://drive.google.com/file/d/1_Ea6DMndPIRTbroUjn4GbcQXcWwhqO77/view?usp=sharing" target="_blank">
+        <div class="relative">
+          <img src="thumbnails/story-thumbnail.png" alt="Story Video Thumbnail" class="w-full mb-3 rounded-md hover:opacity-75 transition-opacity duration-300" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-lg font-semibold opacity-0 hover:opacity-100 transition-opacity duration-300">
+            Click to Watch Video
+          </div>
+        </div>
+      </a>
       <button onclick="toggleReflection('video2')" class="text-blue-600 hover:underline">Show Reflection</button>
       <div id="video2" class="hidden mt-3 text-sm space-y-2">
         <p><strong>Skills:</strong> [answer]</p>
@@ -65,12 +72,16 @@
       </div>
     </div>
 
-    <div class="bg-white shadow rounded-lg p-6">
+    <div class="bg-white shadow rounded-lg p-6 transition-all duration-300 hover:bg-gray-100 hover:scale-[1.01]">
       <h2 class="text-xl font-semibold mb-2">Lyrics - One Dance</h2>
-      <video controls class="w-full mb-3 rounded-md">
-        <source src="one-dance.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <a href="https://drive.google.com/file/d/1kFqGW9CXhI43PQUwSAr9D1iWUWtPLEpC/view?usp=sharing" target="_blank">
+        <div class="relative">
+          <img src="thumbnails/one-dance-thumbnail.png" alt="One Dance Thumbnail" class="w-full mb-3 rounded-md hover:opacity-75 transition-opacity duration-300" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-lg font-semibold opacity-0 hover:opacity-100 transition-opacity duration-300">
+            Click to Watch Video
+          </div>
+        </div>
+      </a>
       <button onclick="toggleReflection('video3')" class="text-blue-600 hover:underline">Show Reflection</button>
       <div id="video3" class="hidden mt-3 text-sm space-y-2">
         <p><strong>Skills:</strong> [answer]</p>
@@ -81,12 +92,16 @@
       </div>
     </div>
 
-    <div class="bg-white shadow rounded-lg p-6">
+    <div class="bg-white shadow rounded-lg p-6 transition-all duration-300 hover:bg-gray-100 hover:scale-[1.01]">
       <h2 class="text-xl font-semibold mb-2">Lyrics - Passionfruit</h2>
-      <video controls class="w-full mb-3 rounded-md">
-        <source src="passionfruit.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <a href="https://drive.google.com/file/d/1gWLqW2nG--GYF9ov57jp8BopA-xVsF_A/view?usp=drive_link" target="_blank">
+        <div class="relative">
+          <img src="thumbnails/passionfruit-thumbnail.png" alt="Passionfruit Thumbnail" class="w-full mb-3 rounded-md hover:opacity-75 transition-opacity duration-300" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-lg font-semibold opacity-0 hover:opacity-100 transition-opacity duration-300">
+            Click to Watch Video
+          </div>
+        </div>
+      </a>
       <button onclick="toggleReflection('video4')" class="text-blue-600 hover:underline">Show Reflection</button>
       <div id="video4" class="hidden mt-3 text-sm space-y-2">
         <p><strong>Skills:</strong> [answer]</p>
@@ -97,12 +112,16 @@
       </div>
     </div>
 
-    <div class="bg-white shadow rounded-lg p-6">
+    <div class="bg-white shadow rounded-lg p-6 transition-all duration-300 hover:bg-gray-100 hover:scale-[1.01]">
       <h2 class="text-xl font-semibold mb-2">Star Wars Crawl</h2>
-      <video controls class="w-full mb-3 rounded-md">
-        <source src="star-wars-crawl.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <a href="https://drive.google.com/file/d/1nUOMvPyefQVbzA4vRoJ_G6vrOKEP1Kp4/view?usp=drive_link" target="_blank">
+        <div class="relative">
+          <img src="thumbnails/crawl-thumbnail.png" alt="Star Wars Crawl Thumbnail" class="w-full mb-3 rounded-md hover:opacity-75 transition-opacity duration-300" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-lg font-semibold opacity-0 hover:opacity-100 transition-opacity duration-300">
+            Click to Watch Video
+          </div>
+        </div>
+      </a>
       <button onclick="toggleReflection('video5')" class="text-blue-600 hover:underline">Show Reflection</button>
       <div id="video5" class="hidden mt-3 text-sm space-y-2">
         <p><strong>Skills:</strong> [answer]</p>
@@ -112,8 +131,8 @@
         <p><strong>Suggestions:</strong> [answer]</p>
       </div>
     </div>
-  </main>
 
+  </main>
 
   <footer class="text-center text-sm text-gray-500 mt-10 pb-4">
     2025 Hari Patel — Video Portfolio
