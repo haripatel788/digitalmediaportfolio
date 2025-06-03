@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Media Group Projects</title>
+  <link rel="icon" href="icon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function toggleReflection(id) {
+      const content = document.getElementById(id);
+      content.classList.toggle('hidden');
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <header class="bg-white shadow-md p-6 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <img src="logo.png" alt="My Logo" class="h-12 w-12 object-cover" />
+      <h1 class="text-2xl font-bold">Media Group Projects</h1>
+    </div>
+    <nav class="space-x-4">
+      <a href="index.html" class="hover:text-blue-600">Home</a>
+      <a href="graph.html" class="hover:text-blue-600">Graphic</a>
+      <a href="audio.html" class="hover:text-blue-600">Audio</a>
+      <a href="video.html" class="hover:text-blue-600">Video</a>
+      <a href="media.html" class="hover:text-blue-600">Media</a>
+      <a href="final.html" class="text-blue-600 font-semibold">Final</a>
+    </nav>
+  </header>
+
+  <main class="max-w-4xl mx-auto py-10 px-4 space-y-10">
+
+    <div class="bg-white shadow rounded-lg p-6 transition-all duration-300 hover:bg-gray-100 hover:scale-[1.01]">
+        <h2 class="text-xl font-semibold mb-2">Video Tribute</h2>
+        <div class="relative">
+          <iframe src="" 
+                  width="640" height="480" allow="autoplay" 
+                  class="w-full rounded-md"></iframe>
+        </div>
+        <button onclick="toggleReflection('video1')" class="text-blue-600 hover:underline">Show Reflection</button>
+        <div id="video1" class="hidden mt-3 text-sm space-y-2">
+          <p><strong>Reflection:</strong> I enjoyed making the final project becuase it was just a logner version of my favorite after effects project, which was the lyrical video. I chose the song Headlines by Drake since it was one of my favorite songs from Drake and it met the time requirements for the project aswell. I used different After Effect things such as null objects, cameras, track mattes, and other things to help me make the project the best I can. I also chose a black background so that the gold accent of the text can pop out. I chose gold as the main color for the text, becuase on the album cover for this song, gold is very prominent, therefore the gold accents. I also wanted ot make it fun and enjoyable so I added pictures of differnet things heard in the lyrics and used different transitions so that it is visually appealing.</p>
+        </div>
+      </div>
+  </main>
+
+
+  <footer class="text-center text-sm text-gray-500 mt-10 pb-4">
+    2025 Hari Patel — Media Group Portfolio
+  </footer>
+</body>
+</html>
